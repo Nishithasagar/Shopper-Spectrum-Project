@@ -126,15 +126,15 @@ Streamlit Dashboard
     )
 
     st.success("""
-    ✔ Data Cleaning
+    ✅ Data Cleaning
 
-    ✔ Exploratory Data Analysis
+    ✅ Exploratory Data Analysis
 
-    ✔ Customer Segmentation
+    ✅ Customer Segmentation
 
-    ✔ Product Recommendation
+    ✅ Product Recommendation
 
-    ✔ Customer Prediction
+    ✅ Customer Prediction
     """
     )
 
@@ -244,11 +244,11 @@ elif page == "📊 Dashboard":
     )
 
     st.success("""
-    ✔ Missing values removed
+    ✅ Missing values removed
 
-    ✔ Duplicate rows removed
+    ✅ Duplicate rows removed
 
-    ✔ Invalid records cleaned
+    ✅ Invalid records cleaned
     """
     )
 
