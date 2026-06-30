@@ -125,18 +125,17 @@ Streamlit Dashboard
         "📦 Modules Included"
     )
 
-    st.success(
-        """
-✔ Data Cleaning
+    st.success("""
+    ✔ Data Cleaning
 
-✔ Exploratory Data Analysis
+    ✔ Exploratory Data Analysis
 
-✔ Customer Segmentation
+    ✔ Customer Segmentation
 
-✔ Product Recommendation
+    ✔ Product Recommendation
 
-✔ Customer Prediction
-"""
+    ✔ Customer Prediction
+    """
     )
 
     st.divider()
@@ -244,14 +243,13 @@ elif page == "📊 Dashboard":
         "✅ Data Summary"
     )
 
-    st.success(
-        """
-✔ Missing values removed
+    st.success("""
+    ✔ Missing values removed
 
-✔ Duplicate rows removed
+    ✔ Duplicate rows removed
 
-✔ Invalid records cleaned
-"""
+    ✔ Invalid records cleaned
+    """
     )
 
     st.divider()
