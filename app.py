@@ -124,7 +124,11 @@ and recommend products using similarity analysis.
         "📦 Modules Included"
     )
 
+<<<<<<< HEAD
     st.markdown("""
+=======
+    st.success("""
+>>>>>>> cb8e0e7a9d7d8f7db27b4414a93e05938eb11ace
     ✅ Data Cleaning
 
     ✅ Exploratory Data Analysis
@@ -134,7 +138,12 @@ and recommend products using similarity analysis.
     ✅ Product Recommendation
 
     ✅ Customer Prediction
+<<<<<<< HEAD
     """)
+=======
+    """
+    )
+>>>>>>> cb8e0e7a9d7d8f7db27b4414a93e05938eb11ace
 
     st.divider()
 
@@ -243,7 +252,11 @@ elif page == "📊 Dashboard":
 
     st.success("""
     ✅ Missing values removed
+    
     ✅ Duplicate rows removed
+
+    ✅ Duplicate rows removed
+
     ✅ Invalid records cleaned
     """
     )
