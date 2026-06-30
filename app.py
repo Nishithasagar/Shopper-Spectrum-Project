@@ -93,30 +93,29 @@ and recommend products using similarity analysis.
         "🔄 Project Workflow"
     )
 
-    st.info(
-        """
-Raw Dataset
+    st.info("""
+    Raw Dataset
 
-↓
+    ↓
 
-Data Cleaning
+    Data Cleaning
 
-↓
+    ↓
 
-Exploratory Data Analysis
+    Exploratory Data Analysis
 
-↓
+    ↓
 
-Customer Segmentation
+    Customer Segmentation
 
-↓
+    ↓
 
-Product Recommendation
+    Product Recommendation
 
-↓
+    ↓
 
-Streamlit Dashboard
-"""
+    Streamlit Dashboard
+    """
     )
 
     st.divider()
@@ -125,19 +124,17 @@ Streamlit Dashboard
         "📦 Modules Included"
     )
 
-    st.success(
-        """
-✔ Data Cleaning
+    st.markdown("""
+    ✅ Data Cleaning
 
-✔ Exploratory Data Analysis
+    ✅ Exploratory Data Analysis
 
-✔ Customer Segmentation
+    ✅ Customer Segmentation
 
-✔ Product Recommendation
+    ✅ Product Recommendation
 
-✔ Customer Prediction
-"""
-    )
+    ✅ Customer Prediction
+    """)
 
     st.divider()
 
@@ -244,14 +241,11 @@ elif page == "📊 Dashboard":
         "✅ Data Summary"
     )
 
-    st.success(
-        """
-✔ Missing values removed
-
-✔ Duplicate rows removed
-
-✔ Invalid records cleaned
-"""
+    st.success("""
+    ✅ Missing values removed
+    ✅ Duplicate rows removed
+    ✅ Invalid records cleaned
+    """
     )
 
     st.divider()
