@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+
+product_similarity.csv
+online_retail.csv
